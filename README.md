@@ -1,6 +1,8 @@
 # BattleSlimes 
+  [BattleSlimes](https://www.battleslimes.com/) is an NFT monster collecting game.
   
-  A Carousel to display the current collection of BattleSlimes.  
+## Feature  
+  A Carousel to display the current collection of BattleSlimes with link to opensea.
 
 ## Tech 🛠️
 - JavaScript
