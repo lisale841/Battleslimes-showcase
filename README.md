@@ -8,15 +8,15 @@
 - Css
 - Html
 
-## Desktop Preview :desktop_computer: 
+## Desktop :desktop_computer: 
 
-
-https://user-images.githubusercontent.com/93673754/226028076-937d6fdb-bbe1-45e5-8c5b-f87c091f1c66.mov
-
-
-## Mobile Preview :iphone:
+![battleslime-desktop-gif](https://user-images.githubusercontent.com/93673754/226037024-ec69479b-cf93-44bc-ac38-17c126957fec.gif)
 
 
 
-https://user-images.githubusercontent.com/93673754/226030977-2fd7a617-cfe0-4b55-abec-9558403532d2.mov
+## Mobile :iphone:
+
+![battleSlime-mobile-gif](https://user-images.githubusercontent.com/93673754/226037113-0aa91915-13fd-42ba-8438-14b5a41ae42d.gif)
+
+
 
