@@ -13,10 +13,9 @@ const Card = ({image, text, url}) => {
           {text}
         </span>
         <br />
-
-        <a href ={url}>
+        { url && <a href ={url}>
           <img src={require('./opensea.png')} className='opensea' alt='opeasea-logo'></img>
-        </a>
+        </a>}
       </div>
 
     </div>
