@@ -46,17 +46,6 @@ float:right;
 cursor: pointer;
 }
 
-.card {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 165px;
-  height: 265px;
-  text-align: center;
-}
 
 
 .center{
@@ -67,6 +56,21 @@ cursor: pointer;
   padding:10px;
 }
 
+.card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 165px;
+  height: 265px;
+  text-align: center;
+  z-index: 0;
+  opacity: 0;
+  transition: 500ms;
+}
+
 .card--active {
   opacity: 1;
   background-color:white;
@@ -75,6 +79,29 @@ cursor: pointer;
   border: 2px solid blue;
   height: 300px;
   text-align:center;
+  transform: scale(1);
+  z-index: 99;
+
+}
+
+.card--left {
+  transform: translateX(-125%) scale(0.8);
+  transition: 500ms;
+  opacity: 0.3;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.card--right {
+  transform: translateX(125%) scale(0.8);
+  transition: 500ms;
+  opacity: 0.3;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid gray;
 }
 
 .text{
@@ -102,27 +129,6 @@ cursor: pointer;
   float: right;
   cursor: pointer;
 
-}
-
-.card--left {
-  transform: translateX(-125%) scale(0.8);
-  transition: 500ms;
-  opacity: 0.3;
-  cursor: pointer;
-  background-color: white;
-  border-radius: 5px;
-  border: 2px solid gray;
-
-}
-
-.card--right {
-  transform: translateX(125%) scale(0.8);
-  transition: 500ms;
-  opacity: 0.3;
-  cursor: pointer;
-  background-color: white;
-  border-radius: 5px;
-  border: 2px solid gray;
 }
 
 .arrow{

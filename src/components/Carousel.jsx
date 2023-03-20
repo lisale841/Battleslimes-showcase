@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState } from 'react';
 import {slimeData} from '../data/slimeData';
 import Card from './Cards';
 import './Carousel.css';
@@ -39,37 +39,38 @@ const swapCards = (direction) => {
   let pNum = findIndex(currentIndex - 1);
   let nNum = findIndex(currentIndex + 1);
 
+  const items = [pNum,cNum,nNum];
 
     return (
       <div className ='carousel'>
         <div>
         <img src={headerImage}alt ='header' className='header'/>
         </div>
-        <div
-        className ='card card--active'>
-          <Card
-          image={cards.slimes[cNum]?.picture}
-          text ={cards.slimes[cNum]?.name}
-          url ={cards.slimes[cNum]?.openseaUrl}/>
-        </div>
+        {items.map((key, index)=>{
+          let cardType;
 
-        <div onClick={previousCard}
-        className='card card--left'>
-          <Card
-            image={cards.slimes[pNum]?.picture}
-            text={cards.slimes[pNum]?.name}
-            // url={cards.slimes[pNum]?.openseaUrl}
-            />
-       </div>
+          switch (index) {
+            case 0: cardType = 'left';
+            break;
+            case 2:
+              cardType = 'right';
+              break;
+            default:
+              cardType = 'active';
+          }
 
-        <div onClick={nextCard}
-        className='card card--right'>
-          <Card
-            image={cards.slimes[nNum]?.picture}
-            text={cards.slimes[nNum]?.name}
-            // url={cards.slimes[nNum]?.openseaUrl}
-            />
-        </div>
+
+          return (<div
+            key={key}
+            className={`card card--${cardType}`}
+            onClick={index === 1 ? null : index === 0 ? previousCard : nextCard}
+            >
+            <Card
+              image={cards.slimes[key]?.picture}
+              text={cards.slimes[key]?.name}
+              url={index === 1 ? cards.slimes[key]?.openseaUrl : null} />
+        </div>)
+        })}
        <div>
           <img src={footerImage} alt='footer' className='footer'/>
         </div>
