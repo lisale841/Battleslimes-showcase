@@ -67,7 +67,8 @@ const swapCards = (direction) => {
             >
             <Card
               image={cards.slimes[key]?.picture}
-              text={cards.slimes[key]?.name}
+              name={cards.slimes[key]?.name}
+              collector={cards.slimes[key]?.collectorNumber}
               url={index === 1 ? cards.slimes[key]?.openseaUrl : null} />
         </div>)
         })}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MobileCard = ({ image, text, url }) => {
+const MobileCard = ({ image, name, url }) => {
 
   return (
     <div className='center'>
@@ -10,7 +10,7 @@ const MobileCard = ({ image, text, url }) => {
       ></img>
       <div className='text--box'>
         <span className='mobile--text'>
-          {text}
+          {name}
         </span>
         <br />
         <a href={url}>

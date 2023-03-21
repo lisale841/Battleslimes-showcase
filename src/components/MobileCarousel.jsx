@@ -7,8 +7,7 @@ import footerImage from './slimes.png'
 
 const MobileCarousel = () => {
   const cards = slimeData;
-  console.log(cards);
-  console.log('cards', cards);
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -57,7 +56,7 @@ const MobileCarousel = () => {
         className='mobile--card'>
         <MobileCard
           image={cards.slimes[cNum]?.picture}
-          text={cards.slimes[cNum]?.name}
+          name={cards.slimes[cNum]?.name}
           url={cards.slimes[cNum]?.openseaUrl} />
       </div>
       <div onClick={nextCard}
