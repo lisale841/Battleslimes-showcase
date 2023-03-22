@@ -43,7 +43,7 @@ const swapCards = (direction) => {
 
     return (
       <div className ='carousel'>
-        <div>
+        <div className= 'header--box'>
         <img src={headerImage}alt ='header' className='header'/>
         </div>
         {items.map((key, index)=>{
@@ -73,8 +73,7 @@ const swapCards = (direction) => {
               context ={index ===1 ? cards.slimes[key]?.description : null} />
         </div>)
         })}
-       <div>
-          <img src={footerImage} alt='footer' className='footer'/>
+       <div className= 'footer--box'>
         </div>
   </div>
 )
