@@ -54,9 +54,22 @@ padding: 5px;
 .center{
   margin: auto;
 }
+
 .slimeImage{
   width: -webkit-fill-available;
   padding:10px;
+}
+
+.slime--box{
+  margin:auto;
+  width:150px;
+  border-bottom: double 5px silver;
+}
+
+.text--description{
+  text-align: center;
+  font-size:16px;
+  margin-top:5px;
 }
 
 .card {
@@ -80,11 +93,12 @@ padding: 5px;
   background-color:white;
   width: 200px;
   border-radius: 5px;
-  border: 2px solid blue;
+  border: 5px double black;
   height: 300px;
   /* text-align:center; */
   transform: scale(1);
   z-index: 99;
+  white-space: break-spaces;
 
 }
 

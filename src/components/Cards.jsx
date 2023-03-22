@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({image, name, collector,url}) => {
+const Card = ({image, name, collector,url,context}) => {
 
   return(
     <div className = 'center'>
@@ -12,15 +12,15 @@ const Card = ({image, name, collector,url}) => {
           #{collector}
         </p>
       </div>
-      <div>
+      <div className='slime--box'>
       <img src={image}
       alt='Slime'
       className= 'slimeImage'
       ></img>
       </div>
-      <p>
-        Fae loves to bounce and play, leaving a trail of glitter wherever she goes.
-      </p>
+     {context && <p className='text--description'>
+      {context}
+      </p>}
         <br />
         { url && <a href ={url}>
           <img src={require('./opensea.png')} className='opensea' alt='opeasea-logo'></img>

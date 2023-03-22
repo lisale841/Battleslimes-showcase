@@ -93,7 +93,7 @@ export const slimeData =
     "openseaUrl": " https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878066526958649345"
   }, {
     "collectorNumber": "3",
-    "description":"Apple is a slime whose adorable little face and bouncy, cheerful demeanor make it impossible not to smile.",
+    "description":"Apple is a slime whose adorable face and cheerful demeanor makes it impossible not to smile.",
     "name": "Apple",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime3.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878052233307488257"
@@ -111,13 +111,13 @@ export const slimeData =
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878050034284232705"
   }, {
     "collectorNumber": "18",
-    "description": "Grog the slime's rough and rocky exterior may look intimidating, but its gentle and affectionate personality will melt hearts.",
+    "description": "Grog the slime's rough and rocky exterior may look intimidating, but affectionate personality will melt hearts.",
     "name": "Grog",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime18.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878068725981904897"
   }, {
     "collectorNumber": "25",
-    "description": "Fae(S) the slime's shimmering, iridescent body bounces around spreading magic and wonder wherever it goes.",
+    "description": "Fae(S) the slime's shimmering body bounces around spreading magic and wonder wherever it goes.",
     "name": "Fae(S)",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime25.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878076422563299329"
@@ -147,7 +147,7 @@ export const slimeData =
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878072024516788225"
   }, {
     "collectorNumber": "7",
-    "descripton":"Fae loves to bounce and play, leaving a trail of glitter wherever she goes.",
+    "description":"Fae loves to bounce and play, leaving a trail of glitter wherever she goes.",
     "name": "Fae",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime7.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878056631353999361"
