@@ -41,9 +41,12 @@
 }
 
 .opensea{
-width: 40px;
-float:right;
+width: 30px;
+position:absolute;
 cursor: pointer;
+bottom:0;
+right: 0;
+padding: 5px;
 }
 
 
@@ -112,11 +115,12 @@ cursor: pointer;
 
 .alignright{
   float:right;
-  font-size:18px;
+  font-size:15px;
 }
 
 .alignleft{
   float:left;
+  font-weight:900;
 }
 
 .mobile--card{
