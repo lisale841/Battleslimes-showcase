@@ -99,49 +99,49 @@ export const slimeData =
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878052233307488257"
   }, {
     "collectorNumber": "15",
-    "description": "Wim the slime's upbeat personality never fail to brighten the mood of anyone who crosses its path.",
+    "description": "Wim's upbeat personality never fail to brighten the mood of anyone who crosses its path.",
     "name": "Wim",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime15.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878065427447021569"
   }, {
     "collectorNumber": "1",
-    "description":"Blu the slime's bouncy and bubbly nature is infectious.",
+    "description":"Blu is a slime with a bouncy and bubbly nature that is infectious.",
     "name": "Blu",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime1.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878050034284232705"
   }, {
     "collectorNumber": "18",
-    "description": "Grog the slime's rough and rocky exterior may look intimidating, but affectionate personality will melt hearts.",
+    "description": "Grog's rough and rocky exterior may look intimidating, but affectionate personality will melt hearts.",
     "name": "Grog",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime18.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878068725981904897"
   }, {
     "collectorNumber": "25",
-    "description": "Fae(S) the slime's shimmering body bounces around spreading magic and wonder wherever it goes.",
+    "description": "Fae(S) with a shimmering body bounces around spreading magic and wonder wherever it goes.",
     "name": "Fae(S)",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime25.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878076422563299329"
   }, {
     "collectorNumber": "22",
-    "description":"Apple(S) the slime's friendly personality makes it a sweet and loyal companion.",
+    "description":"Apple(S) has a friendly personality that makes it a sweet and loyal companion.",
     "name": "Apple(S)",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime22.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878073124028416001"
   }, {
     "collectorNumber": "10",
-    "description": "Wurm the slime's playful antics never fail to bring joy to all those around it.",
+    "description": "Wurm's playful antics never fail to bring joy to all those around it.",
     "name": "Wurm",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime10.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878059929888882689"
   }, {
     "collectorNumber": "14",
-    "description":"Darky the slime's mysterious and shadowy aura, can manipulate darkness to its advantage.",
+    "description":"Darky's mysterious and shadowy aura, can manipulate darkness to its advantage.",
     "name": "Darky",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime14.svg",
     "openseaUrl": " https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878064327935393793"
   }, {
     "collectorNumber": "21",
-    "description":"Spark the slime's electrifying personality makes it a force to be reckoned with.",
+    "description":"Spark's electrifying personality makes it a force to be reckoned with.",
     "name": "Spark(S)",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime21.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878072024516788225"
