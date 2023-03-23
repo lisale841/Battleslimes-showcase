@@ -50,6 +50,10 @@
 
 }
 
+p{
+  margin:1px;
+}
+
 .text--box{
   background-color: white;
 }
