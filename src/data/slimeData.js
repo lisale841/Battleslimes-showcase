@@ -147,7 +147,7 @@ export const slimeData =
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878072024516788225"
   }, {
     "collectorNumber": "7",
-    "description":"Fae loves to bounce and play, leaving a trail of glitter wherever she goes.",
+    "description":"Fae is a slime with an outgoing personality who enjoys adventures.",
     "name": "Fae",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime7.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878056631353999361"
