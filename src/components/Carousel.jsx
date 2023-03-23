@@ -2,8 +2,8 @@ import React, {useState } from 'react';
 import {slimeData} from '../data/slimeData';
 import Card from './Cards';
 import './Carousel.css';
-import headerImage from './battleslimelogo.png';
-import footerImage from './slimes.png'
+import headerImage from './battleslime-logo.png';
+// import footerImage from './slimes.png'
 
 
 const Carousel = () => {
