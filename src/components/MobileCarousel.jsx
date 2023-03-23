@@ -57,7 +57,9 @@ const MobileCarousel = () => {
         <MobileCard
           image={cards.slimes[cNum]?.picture}
           name={cards.slimes[cNum]?.name}
-          url={cards.slimes[cNum]?.openseaUrl} />
+          url={cards.slimes[cNum]?.openseaUrl}
+          collector={cards.slimes[cNum]?.collectorNumber}
+          context ={cards.slimes[cNum]?.description} />
       </div>
       <div onClick={nextCard}
       className = 'arrow'>

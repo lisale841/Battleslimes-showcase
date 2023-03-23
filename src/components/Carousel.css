@@ -20,11 +20,6 @@
 
 }
 
-.mobile--header{
- margin-bottom: 35px;
- width: -webkit-fill-available;
- height: 50px;
-}
 
 .position{
   display:flex;
@@ -59,12 +54,12 @@ p{
 }
 
 .opensea{
-width: 30px;
-position:absolute;
-cursor: pointer;
-bottom:0;
-right: 0;
-padding: 5px;
+  width: 30px;
+  position:absolute;
+  cursor: pointer;
+  bottom:0;
+  right: 0;
+  padding: 5px;
 }
 
 
@@ -86,8 +81,8 @@ padding: 5px;
 
 .text--description{
   text-align: center;
-  font-size:16px;
-  margin-top:5px;
+  font-size:14px;
+  margin-top:3px;
 }
 
 .card {
@@ -155,19 +150,46 @@ padding: 5px;
   font-weight:900;
 }
 
+/*mobile css */
+
+.mobile--header{
+ margin-bottom: 35px;
+ width: -webkit-fill-available;
+ height: 50px;
+}
+
 .mobile--card{
-    opacity: 1;
+  opacity: 1;
     background-color: white;
     width: 225px;
     border-radius: 5px;
-    border: 2px solid blue;
+    border: 5px double black;
     height: 295px;
     text-align: center;
+    white-space: break-spaces;
+
 }
 
 .mobile--text{
+  background-color:white;
+  padding:5px;
+}
+
+.mobile--textLeft{
   font-size:24px;
-  text-align:center;
+  float: left;
+  font-weight: 900;
+
+}
+
+.mobile--textRight{
+font-size:15px;
+float: right;
+}
+
+.mobile--imageBox{
+  width:140px;
+  margin:auto;
 }
 
 .mobile--opensea{
@@ -184,6 +206,6 @@ padding: 5px;
 }
 
 .fas{
-font-size: 60px;
+font-size: 30px;
 cursor: pointer;
 }

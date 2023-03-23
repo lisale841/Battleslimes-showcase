@@ -111,7 +111,7 @@ export const slimeData =
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878050034284232705"
   }, {
     "collectorNumber": "18",
-    "description": "Grog's rough and rocky exterior may look intimidating, but affectionate personality will melt hearts.",
+    "description": "Grog's rough and rocky exterior may look intimidating, but his affectionate personality will melt hearts.",
     "name": "Grog",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime18.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878068725981904897"
