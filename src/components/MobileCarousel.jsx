@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { slimeData } from '../data/slimeData';
 import MobileCard from './MobileCard';
 import './Carousel.css';
-import headerImage from './battleslimelogo.png';
-import footerImage from './slimes.png'
+import headerImage from './battleslime-logo.png';
+// import footerImage from './slimes.png'
 
 const MobileCarousel = () => {
   const cards = slimeData;
@@ -66,8 +66,7 @@ const MobileCarousel = () => {
         <i class="fas fa-chevron-right"></i>
       </div>
       </div>
-      <div className='header'>
-        <img src={footerImage} alt='footer' className='footer' />
+      <div className='mobile--footer--box'>
       </div>
     </div>
   )

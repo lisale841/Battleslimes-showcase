@@ -15,9 +15,7 @@
   text-align:center;
 }
 .header{
-  /* width: -webkit-fill-available; */
   height: 70px;
-
 }
 
 
@@ -35,14 +33,6 @@
   height: 60px;
   background-image: url('./slimes.png');
   background-size: contain;
-}
-.footer{
-  width: -webkit-fill-available;
-  bottom:0;
-  left:0;
-  position: absolute;
-  height:50px;
-
 }
 
 p{
@@ -167,6 +157,7 @@ p{
     height: 295px;
     text-align: center;
     white-space: break-spaces;
+    position:relative;
 
 }
 
@@ -194,8 +185,10 @@ float: right;
 
 .mobile--opensea{
   width:30px;
-  float: right;
+  right:0;
+  bottom:0;
   cursor: pointer;
+  position:absolute
 
 }
 
@@ -208,4 +201,14 @@ float: right;
 .fas{
 font-size: 30px;
 cursor: pointer;
+}
+
+.mobile--footer--box {
+  width: -webkit-fill-available;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 30px;
+  background-image: url('./slimes.png');
+  background-size: contain;
 }
