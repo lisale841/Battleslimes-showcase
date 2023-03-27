@@ -140,57 +140,6 @@ p{
   font-weight:900;
 }
 
-/*mobile css */
-
-.mobile--header{
- margin-bottom: 35px;
- width: -webkit-fill-available;
- height: 50px;
-}
-
-.mobile--card{
-  opacity: 1;
-    background-color: white;
-    width: 225px;
-    border-radius: 5px;
-    border: 5px double black;
-    height: 295px;
-    text-align: center;
-    white-space: break-spaces;
-    position:relative;
-
-}
-
-.mobile--text{
-  background-color:white;
-  padding:5px;
-}
-
-.mobile--textLeft{
-  font-size:24px;
-  float: left;
-  font-weight: 900;
-
-}
-
-.mobile--textRight{
-font-size:15px;
-float: right;
-}
-
-.mobile--imageBox{
-  width:140px;
-  margin:auto;
-}
-
-.mobile--opensea{
-  width:30px;
-  right:0;
-  bottom:0;
-  cursor: pointer;
-  position:absolute
-
-}
 
 .arrow{
     margin: auto;
@@ -201,14 +150,4 @@ float: right;
 .fas{
 font-size: 30px;
 cursor: pointer;
-}
-
-.mobile--footer--box {
-  width: -webkit-fill-available;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  height: 30px;
-  background-image: url('./slimes.png');
-  background-size: contain;
 }

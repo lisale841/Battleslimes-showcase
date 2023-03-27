@@ -63,7 +63,7 @@ export const slimeData =
     "openseaUrl": " https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878058830377254913"
   }, {
     "collectorNumber": "24",
-    "description":"Devil is a fire slime with a red-hot body and a devilish charm.",
+    "description":"Devil(S) is a fire slime with a red-hot body and a devilish charm.",
     "name": "Devil(S)",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime24.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878075323051671553"
@@ -81,7 +81,7 @@ export const slimeData =
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878067626470277121"
   }, {
     "collectorNumber": "5",
-    "description":"Devil is a slime who loves to play pranks on unsuspecting adventurers",
+    "description":"Devil is a slime who loves to play pranks on unsuspecting adventurers.",
     "name": "Devil",
     "picture": "https://storage.googleapis.com/battleslimes_bucket/assets/images/slimecollection/BattleSlime5.svg",
     "openseaUrl": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38702784988183345035410978490421897305681563005849230365966878054432330743809"

@@ -6,7 +6,7 @@ import MobileCarousel from './MobileCarousel';
 
 const CarouselPage = () => {
 const [width, setWidth] = useState(window.innerWidth);
-const breakpoint = 769;
+const breakpoint = 960;
 
 
 
