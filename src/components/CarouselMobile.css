@@ -14,7 +14,7 @@
 .position {
   display: flex;
   justify-content: space-between;
-  margin-top:60px;
+  margin-top:25%;
 }
 
 .mobile--header {
@@ -106,10 +106,10 @@
   .mobile--card {
       opacity: 1;
       background-color: white;
-      width: 152px;
+      width: 140px;
       border-radius: 5px;
       border: 5px double black;
-      height: 215px;
+      height: 200px;
       text-align: center;
       white-space: break-spaces;
       position: relative;
@@ -135,14 +135,14 @@
     }
 
     .mobile--opensea {
-     width: 25px;
+     width: 20px;
      right: 0;
      bottom: 0;
      cursor: pointer;
       position: absolute
     }
     .mobile--context{
-      font-size:10px;
+      font-size:9px;
     }
 
     .arrow {
