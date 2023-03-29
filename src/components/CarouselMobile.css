@@ -109,7 +109,7 @@
       width: 172px;
       border-radius: 5px;
       border: 5px double black;
-      height: 250px;
+      height: 215px;
       text-align: center;
       white-space: break-spaces;
       position: relative;
@@ -121,7 +121,7 @@
      }
 
     .mobile--textLeft {
-      font-size: 19px;
+      font-size: 21px;
       float: left;
       font-weight: 900;
     }
@@ -130,19 +130,19 @@
       float: right;
     }
     .mobile--imageBox {
-      width: 105px;
+      width: 95px;
       margin: auto;
     }
 
     .mobile--opensea {
-     width: 30px;
+     width: 25px;
      right: 0;
      bottom: 0;
      cursor: pointer;
       position: absolute
     }
     .mobile--context{
-      font-size:14px;
+      font-size:11px;
     }
 
     .arrow {
