@@ -106,7 +106,7 @@
   .mobile--card {
       opacity: 1;
       background-color: white;
-      width: 172px;
+      width: 152px;
       border-radius: 5px;
       border: 5px double black;
       height: 215px;
@@ -142,7 +142,7 @@
       position: absolute
     }
     .mobile--context{
-      font-size:11px;
+      font-size:10px;
     }
 
     .arrow {
