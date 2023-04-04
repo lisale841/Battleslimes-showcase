@@ -23,11 +23,9 @@ const MobileCard = ({ image, name, url, collector, context }) => {
         {context}
       </p>
      </div>
-        <br />
         <a href={url}>
           <img src={require('./opensea.png')} className='mobile--opensea' alt='opeasea-logo'></img>
         </a>
-
     </div>
   )
 }

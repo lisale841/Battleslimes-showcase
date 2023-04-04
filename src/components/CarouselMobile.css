@@ -24,10 +24,10 @@
 
 .mobile--card {
   opacity: 1;
-  background-color: white;
+  background: radial-gradient( #00b1ef, #becdf3);
   width: 225px;
   border-radius: 5px;
-  border: 5px double black;
+  border: 10px double black;
   height: 295px;
   text-align: center;
   white-space: break-spaces;
@@ -105,15 +105,16 @@
 }
   .mobile--card {
       opacity: 1;
-      background-color: white;
+      background-color: lightyellow;
       width: 140px;
       border-radius: 5px;
-      border: 5px double black;
+      border: 8px double black;
       height: 200px;
       text-align: center;
       white-space: break-spaces;
       position: relative;
       margin-top:5px;
+      overflow:hidden;
     }
      .mobile--text {
       background-color: white;
@@ -165,4 +166,5 @@
           background-image: url('./slimes.png');
           background-size: contain;
         }
+
 }
