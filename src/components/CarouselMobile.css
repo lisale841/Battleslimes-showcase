@@ -32,12 +32,14 @@
   text-align: center;
   white-space: break-spaces;
   position: relative;
+  padding:2px;
 
 }
 
 .mobile--text {
   background-color: white;
   padding: 5px;
+  border-radius:5px;
 }
 
 .mobile--textLeft {
@@ -62,7 +64,8 @@
   right: 0;
   bottom: 0;
   cursor: pointer;
-  position: absolute
+  position: absolute;
+  padding:7px;
 }
 
 .arrow {
@@ -119,6 +122,7 @@
      .mobile--text {
       background-color: white;
       padding: 5px;
+      border-radius:5px;
      }
 
     .mobile--textLeft {
