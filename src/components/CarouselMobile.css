@@ -128,7 +128,7 @@
       width: 140px;
       border-radius: 5px;
       border: 10px double black;
-      height: 195px;
+      height: 188px;
       text-align: center;
       white-space: break-spaces;
       position: relative;
@@ -160,7 +160,7 @@
       border-radius:50%;
     }
     .mobile--context{
-      font-size:9px;
+      font-size:8px;
     }
 
     .arrow {
