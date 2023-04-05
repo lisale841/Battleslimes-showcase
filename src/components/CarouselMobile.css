@@ -48,7 +48,6 @@
 
 .mobile--text {
   background: radial-gradient( #58cbf4, #becdf3);
-  padding: 5px;
   border-radius:5px;
   display:flex;
   justify-content: space-between;
@@ -69,6 +68,7 @@
 .mobile--imageBox {
   width: 140px;
   margin: auto;
+  border-bottom: double 5px silver;
 }
 
 .mobile--opensea {
@@ -128,7 +128,7 @@
       width: 140px;
       border-radius: 5px;
       border: 10px double black;
-      height: 200px;
+      height: 195px;
       text-align: center;
       white-space: break-spaces;
       position: relative;
@@ -136,16 +136,15 @@
       overflow:hidden;
     }
      .mobile--text {
-      padding: 5px;
       border-radius:5px;
      }
 
     .mobile--textLeft {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 900;
     }
      .mobile--textRight {
-      font-size: 9px;
+      font-size: 8px;
     }
     .mobile--imageBox {
       width: 95px;
