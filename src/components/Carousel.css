@@ -40,7 +40,10 @@ p{
 }
 
 .text--box{
-  background-color: white;
+   background: radial-gradient( #58cbf4, #becdf3);
+  display: flex;
+  justify-content: space-between;
+  border-radius:5px;
 }
 
 .opensea{
@@ -50,13 +53,17 @@ p{
   bottom:0;
   right: 0;
   padding: 7px;
+  border-radius: 50%;
 }
 
 
 
 .center{
   margin: auto;
-  background-color:white;
+  /* background-color:white; */
+    background-image: url(./marble.png);
+ background-repeat: no-repeat;
+ background-size: cover;
   height:100%;
   width:100%;
   border-radius:5px;
@@ -135,12 +142,10 @@ p{
 }
 
 .alignright{
-  float:right;
   font-size:15px;
 }
 
 .alignleft{
-  float:left;
   font-weight:900;
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 const MobileCard = ({ image, name, url, collector, context }) => {
 
   return (
-    <div className='center'>
+    <div className='center--mobile'>
       <div className='mobile--text'>
         <p className='mobile--textLeft'>
           {name}

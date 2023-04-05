@@ -1,7 +1,7 @@
 /*mobile css */
 .carousel {
   width: 75%;
-  height: 80%;
+  height: 75%;
   background-color: rgb(234, 228, 228);
   border: 5px solid black;
   position: relative;
@@ -9,6 +9,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Ubuntu', sans-serif;
+}
+
+.center--mobile{
+  margin: auto;
+    background-image: url(./marble.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+  height:100%;
+  width:97%;
+  border-radius:5px;
 }
 
 .position {
@@ -37,21 +47,23 @@
 }
 
 .mobile--text {
-  background-color: white;
+  background: radial-gradient( #58cbf4, #becdf3);
   padding: 5px;
   border-radius:5px;
+  display:flex;
+  justify-content: space-between;
 }
 
 .mobile--textLeft {
-  font-size: 24px;
-  float: left;
+  font-size: 20px;
+  /* float: left; */
   font-weight: 900;
 
 }
 
 .mobile--textRight {
-  font-size: 15px;
-  float: right;
+  font-size: 12px;
+  /* float: right; */
 }
 
 .mobile--imageBox {
@@ -66,6 +78,7 @@
   cursor: pointer;
   position: absolute;
   padding:7px;
+  border-radius: 50%;
 }
 
 .arrow {
@@ -97,6 +110,9 @@
 
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
+.carousel {
+  height: 80%;
+}
 .position{
   display: flex;
   justify-content: space-between;
@@ -111,7 +127,7 @@
       background-color: lightyellow;
       width: 140px;
       border-radius: 5px;
-      border: 8px double black;
+      border: 10px double black;
       height: 200px;
       text-align: center;
       white-space: break-spaces;
@@ -120,19 +136,16 @@
       overflow:hidden;
     }
      .mobile--text {
-      background-color: white;
       padding: 5px;
       border-radius:5px;
      }
 
     .mobile--textLeft {
-      font-size: 21px;
-      float: left;
+      font-size: 13px;
       font-weight: 900;
     }
      .mobile--textRight {
-      font-size: 10px;
-      float: right;
+      font-size: 9px;
     }
     .mobile--imageBox {
       width: 95px;
@@ -144,7 +157,8 @@
      right: 0;
      bottom: 0;
      cursor: pointer;
-      position: absolute
+      position: absolute;
+      border-radius:50%;
     }
     .mobile--context{
       font-size:9px;
