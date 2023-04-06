@@ -139,10 +139,10 @@
   .mobile--card {
       opacity: 1;
       background-color: lightyellow;
-      width: 140px;
+      width: 120px;
       border-radius: 5px;
       border: 10px double black;
-      height: 185px;
+      height: 167px;
       text-align: center;
       white-space: break-spaces;
       position: relative;
@@ -154,14 +154,14 @@
      }
 
     .mobile--textLeft {
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 900;
     }
      .mobile--textRight {
-      font-size: 8px;
+      font-size: 7px;
     }
     .mobile--imageBox {
-      width: 95px;
+      width: 80px;
       margin: auto;
     }
 
@@ -174,7 +174,7 @@
       border-radius:50%;
     }
     .mobile--context{
-      font-size:8px;
+      font-size:7px;
     }
 
     .arrow {
