@@ -34,7 +34,6 @@
 }
 
 .mobile--header {
-  height: 50px;
   width:250px;
 }
 
@@ -134,7 +133,10 @@
 }
 
 .mobile--header {
-  height: 28px;
+  height: 22px;
+}
+.mobile--header {
+  width:208px;
 }
   .mobile--card {
       opacity: 1;
