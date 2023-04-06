@@ -5,6 +5,8 @@
 ## Feature  
   A Carousel to display the current collection of BattleSlimes with a link to their opensea page.
   
+  Try it [live](https://showcase.battleslimes.com)! :smile:
+  
 
 ## Tech 🛠️
 - JavaScript
