@@ -134,7 +134,7 @@
 }
 
 .mobile--header {
-  height: 30px;
+  height: 28px;
 }
   .mobile--card {
       opacity: 1;
@@ -193,7 +193,7 @@
           bottom: 0;
           left: 0;
           position: absolute;
-          height: 30px;
+          height: 20px;
           background-image: url('./slimes.png');
           background-size: contain;
         }
