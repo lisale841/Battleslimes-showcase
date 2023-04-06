@@ -4,11 +4,12 @@
   height: 75%;
   background-color: rgb(234, 228, 228);
   border: 5px solid black;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Ubuntu', sans-serif;
+
 }
 
 .center--mobile{
@@ -23,8 +24,13 @@
 
 .position {
   display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.item--position{
+  display:flex;
   justify-content: space-between;
-  margin-top:50px;
 }
 
 .mobile--header {
@@ -46,9 +52,10 @@
 
 }
 
+
 .mobile--text {
   background: radial-gradient( #58cbf4, #becdf3);
-  border-radius:5px;
+  border-radius:5px 5px 0px 0px;
   display:flex;
   justify-content: space-between;
 }
@@ -106,6 +113,13 @@
   width: -webkit-fill-available;
   background-color: #00CDFA;
   text-align:center;
+  top:0;
+  position:absolute;
+}
+@media only screen and (min-width: 481px) and (orientation: portrait) {
+  .item--position{
+  column-gap: 40px;
+}
 }
 
 
@@ -113,10 +127,10 @@
 .carousel {
   height: 80%;
 }
-.position{
-  display: flex;
+.item--position{
+  display:flex;
   justify-content: space-between;
-  margin-top:0px;
+  column-gap: 20px;
 }
 
 .mobile--header {
@@ -136,7 +150,7 @@
       overflow:hidden;
     }
      .mobile--text {
-      border-radius:5px;
+      border-radius:5px 5px 0px 0px;
      }
 
     .mobile--textLeft {

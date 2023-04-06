@@ -41,11 +41,11 @@ const MobileCarousel = () => {
 
 
   return (
-    <div className='carousel'>
+    <div className='position carousel'>
       <div className='header--box'>
         <img src={headerImage} alt='header' className= 'mobile--header'/>
       </div>
-      <div className= 'position'>
+      <div className='item--position'>
 
       <div onClick={previousCard}
       className= 'arrow'>
