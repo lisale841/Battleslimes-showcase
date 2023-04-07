@@ -174,7 +174,7 @@ cursor: pointer;
    background: radial-gradient(#00b1ef, #becdf3);
   width: 186px;
   border-radius: 5px;
-  border: 10px double black;
+  border: 8px double black;
   height: 270px;
   /* text-align:center; */
   transform: scale(1);
