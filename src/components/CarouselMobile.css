@@ -201,3 +201,89 @@
         }
 
 }
+
+@media only screen and (max-height: 360px) and (orientation: landscape) {
+.carousel {
+  height: 80%;
+}
+.item--position{
+  display:flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.mobile--header {
+  height: 18px;
+}
+.mobile--header {
+  width:140px;
+}
+  .mobile--card {
+      opacity: 1;
+      background-color: lightyellow;
+      width: 98px;
+      border-radius: 5px;
+      border: 10px double black;
+      height: 142px;
+      text-align: center;
+      white-space: break-spaces;
+      position: relative;
+      margin-top:5px;
+      overflow:hidden;
+    }
+     .mobile--text {
+      border-radius:5px 5px 0px 0px;
+     }
+
+    .mobile--textLeft {
+      font-size: 10px;
+      font-weight: 900;
+    }
+     .mobile--textRight {
+      font-size: 6px;
+    }
+    .mobile--imageBox {
+      width: 70px;
+      margin: auto;
+    }
+.slimeImage{
+  width: -webkit-fill-available;
+  padding:4px;
+}
+
+    .mobile--opensea {
+     width: 15px;
+     right: 0;
+     bottom: 0;
+     cursor: pointer;
+      position: absolute;
+      border-radius:50%;
+    }
+
+
+    .mobile--context{
+      font-size:6px;
+    }
+
+    .arrow {
+          margin: auto;
+          width: fit-content;
+          height: fit-content;
+        }
+
+        .fas {
+          font-size: 30px;
+          cursor: pointer;
+        }
+
+        .mobile--footer--box {
+          width: -webkit-fill-available;
+          bottom: 0;
+          left: 0;
+          position: absolute;
+          height: 18px;
+          background-image: url('./slimes.png');
+          background-size: contain;
+        }
+
+}
