@@ -160,3 +160,65 @@ p{
 font-size: 30px;
 cursor: pointer;
 }
+
+
+
+
+@media only screen and (max-height: 690px) {
+.header{
+  height: 45px;
+}
+
+.card--active {
+  opacity: 1;
+   background: radial-gradient(#00b1ef, #becdf3);
+  width: 186px;
+  border-radius: 5px;
+  border: 10px double black;
+  height: 270px;
+  /* text-align:center; */
+  transform: scale(1);
+  z-index: 99;
+  white-space: break-spaces;
+
+}
+
+.slime--box{
+  margin:auto;
+  width:125px;
+  border-bottom: double 5px silver;
+}
+.text--description{
+  font-size:12px;
+   margin-top:5px;
+}
+
+.alignright{
+  font-size:13px;
+}
+
+.alignleft{
+  font-size:20px;
+  font-weight:900;
+}
+
+.opensea{
+  width: 26px;
+  position:absolute;
+  cursor: pointer;
+  bottom:0;
+  right: 0;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.footer--box{
+  width: -webkit-fill-available;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 40px;
+  background-image: url('./slimes.png');
+  background-size: contain;
+}
+}
